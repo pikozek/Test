@@ -3,7 +3,8 @@ import java.util.Scanner ;
 import java.io.*;
 import java.lang.*;
 import java.util.*;
-
+/* 
+Code for Miminum spaning tree for a weighted undirected graph using Kruskals alogirthm */
 class KruskalsMST{
     static class Edge{
         int src, dest, weight;
